@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Brian Lachniet -- Developer/Designer -- @blachniet -- http://blachniet.com
+    Amber Lachniet -- Designer           --            -- http://ambercolored.com
 
 # THANKS
 
-    <name>
+    
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr
+    Bootstrap, FontAwesome
