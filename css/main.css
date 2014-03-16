@@ -43,11 +43,14 @@ ul.no-bullet{
 .ml-row-footer{
 	background-color: #b2ffb2;
 	padding: 50px;
+	border-top-width: 1px;
+	border-top-color: #fff;
+	border-top-style: solid;
 }
 
 .ml-row-footer footer{
 	text-align: center;
-	color: #009900;
+	color: #004D00;
 	font-weight: bold;
 }
 
@@ -63,7 +66,7 @@ ul.no-bullet{
 }
 
 .navbar-inverse .navbar-nav>li>a{
-	color: #009900;
+	color: #004D00;
 	text-shadow: none;
 }
 
@@ -72,7 +75,7 @@ ul.no-bullet{
 }
 
 .navbar-inverse .navbar-brand{
-	color: #009900;
+	color: #004D00;
 	text-shadow: none;
 }
 
