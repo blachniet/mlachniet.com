@@ -23,10 +23,26 @@ ul.no-bullet{
   border-top: none; 
 }
 
+.jumbotron{
+	margin-bottom: 0;
+}
 
+.row-contact{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #d9edf7;
+}
 
+.row-about{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #dff0d8;
+}
 
-
+.row-scout{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
 
 
 
