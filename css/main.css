@@ -73,10 +73,12 @@ ul.no-bullet{
 
 .navbar-inverse .navbar-brand{
 	color: #009900;
+	text-shadow: none;
 }
 
 .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus{
 	color: #008000;
+	text-shadow: none;
 }
 
 .jumbotron h1{
