@@ -26,6 +26,10 @@ ul.no-bullet {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.ml-row-highlight {
+  background-color: #004d00;
+  color: #fff;
+}
 .ml-row-footer {
   background-color: #b2ffb2;
   padding: 50px;
@@ -80,4 +84,12 @@ h6 small,
 .h5 small,
 .h6 small {
   color: #ddd;
+}
+h1,
+h2,
+h3 {
+  color: #004d00;
+}
+h3 small {
+  color: #008000;
 }
