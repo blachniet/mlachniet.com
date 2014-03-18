@@ -29,11 +29,11 @@
 
   <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target="#nav-links">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
             <![endif]-->
-            <div class="navbar navbar-inverse navbar-fixed-top">
+            <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
               <div class="container">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -43,7 +43,7 @@
                   </button>
                   <a class="navbar-brand" href="#">Michael Lachniet</a>
                 </div>
-                <div class="navbar-collapse collapse">
+                <div id="nav-links" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right">
                     <li><a href="#about">About</a></li>
                     <li><a href="#highlights">Highlights</a></li>
@@ -92,7 +92,7 @@
                 <!-- Example row of columns -->
                 <div class="row">
 
-                  <div class="col-lg-4">
+                  <div class="col-md-4">
                     <div class="well well-green">
                       <h2 class="text-center">Coaches</h2>
                       <p>
@@ -109,7 +109,7 @@
                     </div>
                   </div>
 
-                  <div class="col-lg-4">
+                  <div class="col-md-4">
                     <div class="well well-green">
                       <h2 class="text-center">High School</h2>
                       <p>
@@ -147,7 +147,7 @@
                     </div>
                   </div>
 
-                  <div class="col-lg-4">
+                  <div class="col-md-4">
                     <div class="well well-green">
                       <h2 class="text-center">Athletics</h2>
                       <table class="table table-condensed table-no-border">
@@ -184,7 +184,7 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="text-center">
-                      <img src="http://placehold.it/640x480&text=VIDEO+HERE" style="width:100%" />
+                      <img src="http://placehold.it/640x480&text=VIDEO+HERE" class="ml-highlight-video" />
                     </div>
                   </div>
                 </div>

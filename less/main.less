@@ -69,10 +69,30 @@ ul.no-bullet{
 .navbar-inverse .navbar-nav>li>a{
 	color: @ml-green-dark;
 	text-shadow: none;
+
+	border-bottom-color: transparent;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	padding-bottom: 3px;
+
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{
-	color: #008000;
+	color: @ml-green-med;
+	border-bottom-color: @ml-green-med;
+	padding-bottom: 3px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+	color: @ml-green-med;
+	border-bottom-color: @ml-green-med;
+	padding-bottom: 3px;
 }
 
 .navbar-inverse .navbar-brand{
@@ -99,4 +119,9 @@ h1, h2, h3 {
 
 h3 small {
 	color: lighten(@ml-green-dark, 10%)
+}
+
+.ml-highlight-video{
+	width: 100%;
+	max-width: 640px;
 }

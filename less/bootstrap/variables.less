@@ -3,6 +3,7 @@
 // --------------------------------------------------
 
 @ml-gray: #ebebeb;
+@ml-green-med: #008000;
 @ml-green-dark: #004D00;
 @ml-green-light: #B2FFB2;
 
@@ -363,16 +364,16 @@
 
 // Inverted navbar
 // Reset inverted navbar basics
-@navbar-inverse-color:                      @gray-light;
-@navbar-inverse-bg:                         #222;
+@navbar-inverse-color:                      @ml-green-dark;
+@navbar-inverse-bg:                         @ml-green-light;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
 @navbar-inverse-link-color:                 @gray-light;
 @navbar-inverse-link-hover-color:           #fff;
 @navbar-inverse-link-hover-bg:              transparent;
-@navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
-@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-link-active-color:          @ml-green-med;
+@navbar-inverse-link-active-bg:             @ml-green-light;
 @navbar-inverse-link-disabled-color:        #444;
 @navbar-inverse-link-disabled-bg:           transparent;
 
@@ -382,9 +383,9 @@
 @navbar-inverse-brand-hover-bg:             transparent;
 
 // Inverted navbar toggle
-@navbar-inverse-toggle-hover-bg:            #333;
-@navbar-inverse-toggle-icon-bar-bg:         #fff;
-@navbar-inverse-toggle-border-color:        #333;
+@navbar-inverse-toggle-hover-bg:            darken(@ml-green-light, 5%);
+@navbar-inverse-toggle-icon-bar-bg:         @ml-green-dark;
+@navbar-inverse-toggle-border-color:        @ml-green-dark;
 
 
 //== Navs

@@ -54,10 +54,28 @@ ul.no-bullet {
 .navbar-inverse .navbar-nav > li > a {
   color: #004d00;
   text-shadow: none;
+  border-bottom-color: transparent;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  padding-bottom: 3px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
   color: #008000;
+  border-bottom-color: #008000;
+  padding-bottom: 3px;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: #008000;
+  border-bottom-color: #008000;
+  padding-bottom: 3px;
 }
 .navbar-inverse .navbar-brand {
   color: #004d00;
@@ -92,4 +110,8 @@ h3 {
 }
 h3 small {
   color: #008000;
+}
+.ml-highlight-video {
+  width: 100%;
+  max-width: 640px;
 }
