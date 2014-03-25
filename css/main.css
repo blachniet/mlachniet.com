@@ -111,7 +111,19 @@ h3 {
 h3 small {
   color: #008000;
 }
-.ml-highlight-video {
+.youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.youtube iframe,
+.youtube object,
+.youtube embed {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  max-width: 640px;
+  height: 100%;
 }
