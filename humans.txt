@@ -4,7 +4,7 @@
 # TEAM
 
     Brian Lachniet -- Developer/Designer -- @blachniet -- http://blachniet.com
-    Amber Lachniet -- Designer           --            -- http://ambercolored.com
+    Amber Lachniet -- Designer           --            -- http://www.ambercolored.com
 
 # THANKS
 
