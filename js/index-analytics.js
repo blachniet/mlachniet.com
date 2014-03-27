@@ -4,4 +4,8 @@
     ga('send', 'event', event.target.id, 'click', 'nav-buttons');
   });
 
+  $('a[href^="mailto:"]').click(function(event){
+    ga('send', 'event', $(event.target).text(), 'click', 'mailto');
+  });
+
 })();
