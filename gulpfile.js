@@ -3,9 +3,11 @@ var path = require('path'),
     connect = require('connect'),
     cssmin = require('gulp-cssmin'),
     http = require('http'),
+    imagemin = require('gulp-imagemin'),
     less = require('gulp-less'),
     livereload = require('gulp-livereload'),
-    rename = require('gulp-rename');
+    rename = require('gulp-rename'),
+    rev = require('gulp-rev');
 
 gulp.task('less', function(){
   gulp.src(['./less/bootstrap/bootstrap.less', './less/*.less'])
@@ -14,6 +16,13 @@ gulp.task('less', function(){
     .pipe(cssmin({keepSpecialComments: 1}))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('./css'));
+});
+
+gulp.task('imagemin', function(){
+    gulp.src('img/originals/*.png')
+        .pipe(imagemin())
+        .pipe(rev())
+        .pipe(gulp.dest('img'));
 });
 
 gulp.task('watch', function(){

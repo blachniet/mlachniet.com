@@ -15,7 +15,7 @@ $('a.navbar-brand').click(function(event){
   event.preventDefault();
   $('html,body').animate({
     scrollTop: 0
-  }, 550, "linear", function(){
+  }, 550, "swing", function(){
     // Remove the active nav
     $('#nav-links li.active').removeClass('active');
   });
