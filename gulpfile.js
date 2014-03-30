@@ -19,7 +19,7 @@ gulp.task('less', function(){
 });
 
 gulp.task('imagemin', function(){
-    gulp.src('img/originals/*.png')
+    gulp.src('img/cropped/*.png')
         .pipe(imagemin())
         .pipe(rev())
         .pipe(gulp.dest('img'));
